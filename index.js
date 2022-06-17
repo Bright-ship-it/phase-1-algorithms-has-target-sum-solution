@@ -1,6 +1,7 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
-  const seenNumbers = new Set(); // initialize an empty Set
+  // initialize an empty Set
+  const seenNumbers = new Set(); 
   for (const number of array) {
     const complement = target - number;
 
